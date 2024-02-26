@@ -28,22 +28,23 @@ module.exports = () => {
         swDest: 'src-sw.js',
       }),
       new WebpackPwaManifest({
-        name: 'Text Editor',
-        short_name: 'Text Editor',
-        description: 'A place to write things',
-        background_color: 'blue',
-        theme_color: 'yellow',
-        start_url: './',
-        publicPath: './',
-        icon: [
+        fingerprints: false,
+        inject: true,
+        name: 'Just Another Text Editor',
+        short_name: 'J.A.T.E',
+        description: 'Takes notes with JavaScript syntax highlighting!',
+        background_color: '#225ca3',
+        theme_color: '#225ca3',
+        start_url: '/',
+        publicPath: '/',
+        icons: [
           {
-            src: path.resolve('favicon.ico'),
+            src: path.resolve('src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
-            destination: path.join('..', 'client'),
-          }
-        ]
-
-      })
+            destination: path.join('assets', 'icons'),
+          },
+        ],
+      }),
     ],
 
     module: {
