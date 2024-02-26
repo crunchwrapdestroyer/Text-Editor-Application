@@ -1,0 +1,42 @@
+{
+  "icons": [
+    {
+      "src": "./../client/icon_512x512.746db68de78df5d3feaeac6b6c757b2a.ico",
+      "sizes": "512x512",
+      "type": "image/vnd.microsoft.icon"
+    },
+    {
+      "src": "./../client/icon_384x384.746db68de78df5d3feaeac6b6c757b2a.ico",
+      "sizes": "384x384",
+      "type": "image/vnd.microsoft.icon"
+    },
+    {
+      "src": "./../client/icon_256x256.746db68de78df5d3feaeac6b6c757b2a.ico",
+      "sizes": "256x256",
+      "type": "image/vnd.microsoft.icon"
+    },
+    {
+      "src": "./../client/icon_192x192.746db68de78df5d3feaeac6b6c757b2a.ico",
+      "sizes": "192x192",
+      "type": "image/vnd.microsoft.icon"
+    },
+    {
+      "src": "./../client/icon_128x128.746db68de78df5d3feaeac6b6c757b2a.ico",
+      "sizes": "128x128",
+      "type": "image/vnd.microsoft.icon"
+    },
+    {
+      "src": "./../client/icon_96x96.746db68de78df5d3feaeac6b6c757b2a.ico",
+      "sizes": "96x96",
+      "type": "image/vnd.microsoft.icon"
+    }
+  ],
+  "name": "Text Editor",
+  "short_name": "Text Editor",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./",
+  "description": "A place to write things",
+  "background_color": "blue",
+  "theme_color": "yellow"
+}
