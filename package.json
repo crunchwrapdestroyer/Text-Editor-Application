@@ -10,7 +10,7 @@
     "build": "cd client && npm run build",
     "install": "cd server && npm i && cd ../client && npm i",
     "client": "cd client && npm start",
-    "render-build":"npm install && npm run build"
+    // "render-build":"npm install && npm run build"
   },
   "dependencies": {
     "express": "^4.17.1"
